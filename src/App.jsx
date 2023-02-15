@@ -1,9 +1,12 @@
 import { useState } from 'react'
-
+import Text from './components/atoms/text/Text'
 const App = () => {
   return(
     <div>
-      <h1>MindWrite</h1>
+      <Text type="h6">MindWrite</Text>
+      <Text type="h1">MindWrite</Text>
+      <Text type="h3">MindWrite</Text>
+      <Text>MindWrite</Text>
     </div>
   )
 }

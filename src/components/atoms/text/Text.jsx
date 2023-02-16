@@ -1,39 +1,39 @@
 import React from 'react'
 
-const Text = (props) => {
+const Text = ({type, children}) => {
     {
-        if(props.type === "h1"){
+        if(type === "h1"){
             return(
-                <h1>{props.children}</h1>
+                <h1>{children}</h1>
             )
         }else
-        if(props.type === "h2"){
+        if(type === "h2"){
             return(
-                <h2>{props.children}</h2>
+                <h2>{children}</h2>
             )
         }else
-        if(props.type === "h3"){
+        if(type === "h3"){
             return(
-                <h3>{props.children}</h3>
+                <h3>{children}</h3>
             )
         }else
-        if(props.type === "h4"){
+        if(type === "h4"){
             return(
-                <h4>{props.children}</h4>
+                <h4>{children}</h4>
             )
         }else
-        if(props.type === "h5"){
+        if(type === "h5"){
             return(
-                <h5>{props.children}</h5>
+                <h5>{children}</h5>
             )
         }else
-        if(props.type === "h6"){
+        if(type === "h6"){
             return(
-                <h6>{props.children}</h6>
+                <h6>{children}</h6>
             )
         }else{
             return(
-                <p>{props.children}</p>
+                <p>{children}</p>
             )
         }
 

@@ -1,13 +1,10 @@
 import { useState } from 'react'
-import Text from './components/atoms/text/Text'
+import Home from './components/pages/home/Home'
 const App = () => {
   return(
-    <div>
-      <Text type="h6">MindWrite</Text>
-      <Text type="h1">MindWrite</Text>
-      <Text type="h3">MindWrite</Text>
-      <Text>MindWrite</Text>
-    </div>
+    <>
+      <Home />
+    </>
   )
 }
 

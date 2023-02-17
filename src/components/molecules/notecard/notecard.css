@@ -1,21 +1,19 @@
 
 .card{
-   background-color: white;
-   border-radius: 10px;
-   padding: 14px;
-   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 270px;
-  width: 470px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    width: 100%;
 }
 
 #container{
     max-width: 960px;
     margin-right: 30px;
     margin-left: 30px;
-    
-
 }
 
 .notification-icon{
@@ -23,20 +21,16 @@
 }
 
 .sec1{
- 
     display: flex;
     justify-content: space-between;
-  
 }
 
 .details{
    align-items: initial;
-   
 }
 
 .title{
   color: red;
-  
 }
 
 .notes{

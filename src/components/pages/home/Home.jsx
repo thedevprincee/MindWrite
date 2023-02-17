@@ -1,11 +1,17 @@
 import React from 'react'
 import Notecard from '../../molecules/notecard/Notecard'
-import HomeWrapper from './Home.styles'
+import {HomeWrapper, AppDisplay, WebDisplay} from './Home.styles'
 
 const Home = () => {
   return (
     <HomeWrapper>
-      <Notecard />
+      <AppDisplay>
+        <Notecard />
+
+      </AppDisplay>
+      <WebDisplay>
+
+      </WebDisplay>
     </HomeWrapper>
   )
 }

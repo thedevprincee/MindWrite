@@ -1,9 +1,14 @@
 import { useState } from 'react'
 import Home from './components/pages/home/Home'
+
+
+
 const App = () => {
   return(
     <>
       <Home />
+
+      
     </>
   )
 }

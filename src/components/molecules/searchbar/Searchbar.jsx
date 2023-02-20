@@ -8,6 +8,7 @@ function Searchbar({placeholder}) {
       <div className="searchInput">
         <input type="text" placeholder={placeholder} />
         <div className="searchicon" > <FcSearch /></div>
+        
       </div>
       <div className="datResult"></div>
      

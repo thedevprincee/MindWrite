@@ -1,6 +1,7 @@
 import React from 'react'
 import Notecard from '../../molecules/notecard/Notecard'
 import {HomeWrapper, AppDisplay, WebDisplay} from './Home.styles'
+import FloatingButton from '../../molecules/floatingbutton/FloatingButton'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <AppDisplay>
         <Notecard />
 
+        <FloatingButton/>
       </AppDisplay>
       <WebDisplay>
 

@@ -21,6 +21,7 @@ export const AppDisplay = styled.div`
     padding: 0; 
     overflow-y: auto;
     overflow-x: hidden;
+    position: relative;
     @media screen and (min-width:590px){
         border: 2px solid black;
         width: 30%;
